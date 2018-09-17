@@ -25,16 +25,24 @@
 			<groupId>com.cs</groupId>
 			<artifactId>ms.baseapp.mbframekwork</artifactId>
 			<type>war</type>
-			<version>1.01</version>
+			<version>1.02</version>
 		</dependency>
 		<dependency>
 			<groupId>com.cs</groupId>
 			<artifactId>ms.baseapp.mbframekwork</artifactId>
 			<type>jar</type>
-			<version>1.01</version>
+			<version>1.02</version>
 			<scope>compile</scope>
 			<classifier>api</classifier>
 		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
